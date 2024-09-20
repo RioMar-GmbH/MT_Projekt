@@ -1,0 +1,41 @@
+*{
+
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header img {
+    width: 130px;
+}
+header h1 {
+    margin-left: 10px;
+}
+h2 {
+    margin-top: 20px;
+}
+hr {
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+}
+table, td {
+    border: 1px solid #ccc;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+}
